@@ -1,0 +1,35 @@
+body{
+  /* background: #f3f3f3; */
+
+}
+.container-fluid{
+  background:
+   /* top, transparent red, faked with gradient */
+   linear-gradient(
+     rgba(0, 0, 0, 0.85),
+     rgba(0, 0, 0, 0.85)
+   ),
+   /* bottom, image */
+   url('img/rs7.jpg');
+   background-size: cover;
+   background-repeat: none;
+   height: 100vh;
+}
+h1{
+  color: rgb(245s, 245, 245);
+}
+.jumbotron{
+  padding-top: 12em;
+  background: inherit;
+  color: white;
+  justify-content: center;
+  text-align: center;
+}
+.hero-box{
+  padding-top: 12em;
+
+  border-radius: 4px;
+}
+.hero-box .col-md-6{
+  padding-top: 4em;
+}
